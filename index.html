@@ -8,23 +8,62 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--Icon Ionic-->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!--Dev Icons-->
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <main id="container">
     <aside id="bio-container">
         <h2>Arthur Sabatino</h2>
         <img src="img/47981733.png" alt="Arthur">
-        <p>Ola, meu nome e Arthur Sabatino e estou estudando para ser um <span class="higligt">bom desenvolvedor</span>.</p>
-        <p></p>
+        <p>Ola, meu nome e Arthur Sabatino e estou estudando para ser um <span class="highlight">bom desenvolvedor</span>.</p>
+        <p id="welcome-text">Seja bem Vindo</p>
+        <ul id="social-container">
+            <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <div id="email-container">
+            <ion-icon name="mail-outline"><a href="mailto:sabatinoarthur@gmail.com">sabatinoarthur@gmail.com</a></ion-icon>
+        </div>
     </aside>
     <section id="about-container">
-
+        <h1 id="name">Arthur Sabatino</h1>
+        <p id="title"><span class="highlight">Estudante de Engenharia de Software</spa></p>
+        <p class="description">Sou apaixonado por <span class="highlight">tecnologia e desenvolvimento de software,</span>  sempre buscando aprender novas ferramentas e criar soluções práticas. Atualmente estudo programação, automação e qualidade de software, com foco em <span class="higligt">evolução constante e desenvolvimento profissional.</span>🚀</p>
+        <p class="description">Desenvolvedor em aprendizado, com foco em Python, automação, QA/Testes e desenvolvimento web. 🚀</p>
+        <a href="#" id="btn-projects"><ion-icon name="share-social-outline"><span>Ver Projetos</span></ion-icon></a>
+        <h2 id="skills-section-title">Minhas Skills</h2>
+        <p class="description">Conheça as Tecnologias que Domino: </p>
+        <div id="skills-container">
+            <div class="skills-box">
+                <p class="skills-title">Front-End</p>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+            </div>
+        </div>
+        <div id="skills-container">
+            <div class="skills-box">
+                <p class="skills-title">Back-End</p>
+                <i class="devicon-php-plain colored"></i>
+                <i class="devicon-nodejs-plain colored"></i>
+                <i class="devicon-python-plain colored"></i>
+            </div>
+        </div>
+        <div id="skills-container">
+            <div class="skills-box">
+                <p class="skills-title">Database</p>
+                <i class="devicon-mysql-plain colored"></i>
+            </div>
+        </div>
+        </div>
     </section>
    </main>
 </body>
